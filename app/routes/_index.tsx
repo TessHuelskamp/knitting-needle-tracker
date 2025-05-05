@@ -81,7 +81,7 @@ export default function Index () {
         </header>
         <div className="">
           {/* Table container */}
-          <div className="max-height-[80vh] m-4 p-4">
+          <div className="[max-height:80vh] [max-width:80vw] m-4 p-4 block overflow-scroll">
             <table className="w-full text-sm text-left rtl:text-right text-gray-500">
               <thead className="text-xs text-gray-700 uppercase bg-gray-50 sticky top-0">
                 <th scope="col" className="px-6 py-3" />
