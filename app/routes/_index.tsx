@@ -72,7 +72,7 @@ export default function Index () {
 
 
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="flex h-screen items-center justify-center background-white">
       <div className="flex flex-col items-center gap-16 h-dvh">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 mt-4">
@@ -81,7 +81,7 @@ export default function Index () {
         </header>
         <div className="">
           {/* Table container */}
-          <div className="max-height-[80vh] border-red border m-4 p-4">
+          <div className="max-height-[80vh] m-4 p-4">
             <table className="w-full text-sm text-left rtl:text-right text-gray-500">
               <thead className="text-xs text-gray-700 uppercase bg-gray-50 sticky top-0">
                 <th scope="col" className="px-6 py-3" />
